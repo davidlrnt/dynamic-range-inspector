@@ -1,0 +1,34 @@
+{
+  "name": "dynamic-range-inspector",
+  "version": "1.0.0",
+  "description": "audio file dynamic range inspector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlrnt/dynamic-range-inspector.git"
+  },
+  "keywords": [
+    "dynamic",
+    "range",
+    "audio",
+    "analizer",
+    "inspector"
+  ],
+  "author": "davidlrnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlrnt/dynamic-range-inspector/issues"
+  },
+  "homepage": "https://github.com/davidlrnt/dynamic-range-inspector#readme",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "traceur": "0.0.111"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
