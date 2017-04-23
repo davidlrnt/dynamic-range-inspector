@@ -5,12 +5,17 @@
 	<title>Document</title>
 	<script src="node_modules/traceur/bin/traceur.js"></script>
 	<script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+
 	<link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
 
+	<audio id="audio" src="" controls="controls"></audio>
 	<input type="file" id="input" accept="audio/*"/>
 	<!-- <input type="submit" id="submit"> -->
+	<svg width="960" height="500"></svg>
+
 	<script>
 		System.import('src/app.js');
 	</script>
