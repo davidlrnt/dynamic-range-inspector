@@ -1,3 +1,18 @@
 body {
-	/*background: red;*/
+	font-family: Verdana;
+}
+main {
+	padding: 25px;
+	margin: 25px 0;
+	display: flex;
+	justify-content: center;
+}
+input[type=file]{
+	display: none;
+}
+input[type=file] + label {
+	box-shadow: 2px 2px 3px black;
+	border: 1px solid grey;
+	padding: 10px;
+	cursor: pointer;
 }
