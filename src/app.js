@@ -23,6 +23,10 @@ function loadMusic(url) {
             var draw = new DrawHelper(buffer.getChannelData(0));
             draw.createCanvas(window.innerWidth,300)
             draw.drawData(1000)
+            audio.getAverageCompression().then((avg) => {
+              // pass average to drawLine and draw single bar graph with average compression
+              // drawLine(avg);
+            })
           })
           .catch((err) => {console.log("Error",err);})
       } else {
